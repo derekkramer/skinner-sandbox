@@ -1,0 +1,104 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Racing Sans One', cursive;
+}
+
+header {
+    width: 100%;
+    padding: 1em;
+    padding-left: 3em;
+    box-sizing: border-box;
+    border-bottom: 0.2em Gainsboro solid;
+    background-image: linear-gradient(to left, black 0%, WhiteSmoke 80%), url('img/checkered-flag.jpg');
+    background-blend-mode: color-dodge;
+    background-size: cover;
+}
+
+img.banner {
+    width: 20%;
+}
+
+main {
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background-image: url('img/asphalt.jpg');
+    /*background-image: linear-gradient(to left, Gainsboro 0%, Gainsboro 100%), url('img/asphalt.jpg');
+    background-blend-mode: screen;*/
+    background-size: cover;
+    color: white;
+    /*font-weight: bold;*/
+    font-size: 14pt;
+}
+
+section {
+    display: flex;
+    padding: 0 2em 2em 2em;
+    align-items: center;
+}
+
+section.section_first {
+    justify-content: flex-start;
+}
+
+section.section_second {
+    justify-content: flex-end;
+}
+
+img.body_image {
+    width: 40%;
+    height: 40%;
+}
+
+p.body_paragraph {
+    width: 40%;
+    padding: 3em;
+    background-color: grey;
+}
+
+section.divider {
+    width: 100%;
+    margin: 4em 0 4em 0;
+    padding-left: 6em;
+    padding-bottom: 0;
+    border-top: 0.2em Gainsboro solid;
+    border-bottom: 0.2em Gainsboro solid;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left, black 0%, WhiteSmoke 75%), url('img/checkered-flag.jpg');
+    background-blend-mode: color-dodge;
+    background-size: cover;
+}
+
+h1.divider {
+    font-size: 28pt;
+    color: black;
+}
+
+section.about {
+    margin-bottom: 3em;
+    padding: 0 4em 0 4em;
+}
+
+img.about {
+    width: 40%;
+    height: 40%;
+}
+
+article.about {
+    width: 50%;
+    margin-right: 3em;
+    padding-left: 3em;
+    background-color: grey;
+}
+
+footer {
+    width: 100%;
+    padding-left: 6em;
+    padding-bottom: 0;
+    border-top: 0.2em Gainsboro solid;
+    border-bottom: 0.2em Gainsboro solid;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left, black 0%, WhiteSmoke 90%), url('img/checkered-flag.jpg');
+    background-blend-mode: color-dodge;
+    background-size: cover;
+}

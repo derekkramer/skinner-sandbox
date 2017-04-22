@@ -23,11 +23,8 @@ main {
     padding-top: 2em;
     padding-bottom: 3em;
     background-image: url('img/asphalt.jpg');
-    /*background-image: linear-gradient(to left, Gainsboro 0%, Gainsboro 100%), url('img/asphalt.jpg');
-    background-blend-mode: screen;*/
     background-size: cover;
     color: white;
-    /*font-weight: bold;*/
     font-size: 14pt;
 }
 
